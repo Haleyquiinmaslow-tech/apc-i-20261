@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main () {
+                                                        //SEM SINAL
+
+unsigned char caracter_sem_sinal;
+unsigned int inteiro_sem_sinal;
+
+short int inteiro_curto;            //diminui o valor
+long long int ineriro_long = 10LL;  //aumenta o valor (CPU 64bits)
+
+printf("inteiro longo = %lli", inteiro_longo);
+long double duplo_longo = 1.123456789012345678L;
+
+printf("duplo longo = %Lf", duplo_longo);
+
+printf("Tamanho em bytes do'char' = %ui\n", sizeof(char));
+printf("Tamanho em bytes do'int' = %ui\n", sizeof(int));
+printf("Tamanho em bytes do'short int' = %ui\n", sizeof(short int));
+printf("Tamanho em bytes do'long int' = %ui\n", sizeof(long int));
+printf("Tamanho em bytes do'long long int' = %ui\n", sizeof(long long int));
+printf("Tamanho em bytes do'float' = %ui\n", sizeof(float));
+printf("Tamanho em bytes do'double' = %ui\n", sizeof(double));
+printf("Tamanho em bytes do'long double' = %ui\n", sizeof(long double));
+    
+    return 0;
+}
