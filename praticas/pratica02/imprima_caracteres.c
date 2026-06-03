@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main () { 
     printf("A");
-    /n("isso aqui eh uma string");
+    printf("isso aqui eh uma string\n");
     return 0;
 }
