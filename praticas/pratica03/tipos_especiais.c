@@ -2,7 +2,6 @@
 
 int main() {
 
-
 // Para usar (int)- valores até 2bilhões, (%d) -->especificar para usar
 int Paises = 195;
 
