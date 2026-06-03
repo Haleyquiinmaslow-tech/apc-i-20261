@@ -2,7 +2,6 @@
 
 int main () {
 
-double 
 printf("================\n");
 
 printf("NOTA FISCAL\n");
@@ -18,5 +17,6 @@ printf("Calca   002 89,90\n");
 printf("Meia Social  003 19,99\n");
 
 printf("");
-    retur 0;
+    
+return 0;
 }
