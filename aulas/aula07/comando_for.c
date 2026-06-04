@@ -27,7 +27,7 @@ for( int i=1; i<=100; i++) {
 
 // repete contando de 10 ate 1
 for(int i=10; i>0; i--) {
-    printf("%i x %i = %i\n", numero, i, numero * i);
+    printf("%i + %i = %i\n", numero, i, numero * i);
 }
 
 // CUIDADO !!!!!!!!!!!!
